@@ -1,14 +1,14 @@
-//
-//  main.cpp
-//  Array In Heap
-//
-//  Created by Akshar Bisht on 01/04/22.
-//
-
 #include <iostream>
+#include <stdio.h>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    int *p;
+    p = new int[5];
+    p[0] = 2; p[1] = 4; p[2] = 6; p[3] = 8; p[4] = 10;
+    for(int i = 0; i < 5; i++)
+    {
+        cout<<p[i]<<endl;
+    }
     return 0;
 }
