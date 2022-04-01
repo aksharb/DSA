@@ -10,5 +10,6 @@ int main() {
     {
         cout<<p[i]<<endl;
     }
+    delete [] p;
     return 0;
 }
